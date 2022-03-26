@@ -1,22 +1,15 @@
 {
   "files": {
-    "main.css": "/aamin-clock/static/css/main.e00411be.css",
-    "main.js": "/aamin-clock/static/js/main.948e26f7.js",
+    "main.css": "/aamin-clock/static/css/main.4de40cda.css",
+    "main.js": "/aamin-clock/static/js/main.09a760cb.js",
     "static/js/787.6843d2c1.chunk.js": "/aamin-clock/static/js/787.6843d2c1.chunk.js",
-    "static/media/sunny.mp4": "/aamin-clock/static/media/sunny.3a289c98dd4e1bee0898.mp4",
-    "static/media/clouds.mp4": "/aamin-clock/static/media/clouds.9841a6356d4b66631ccf.mp4",
-    "static/media/rain.mp4": "/aamin-clock/static/media/rain.a8ddaf0029db15550661.mp4",
-    "static/media/thunder.mp4": "/aamin-clock/static/media/thunder.7834a1adaaa4ea2315a3.mp4",
-    "static/media/rain.png": "/aamin-clock/static/media/rain.513cb7a576bcdf46ceed.png",
-    "static/media/sun.png": "/aamin-clock/static/media/sun.a23280e5621b305b1381.png",
-    "static/media/clouds.png": "/aamin-clock/static/media/clouds.408938a2a97661314e43.png",
     "index.html": "/aamin-clock/index.html",
-    "main.e00411be.css.map": "/aamin-clock/static/css/main.e00411be.css.map",
-    "main.948e26f7.js.map": "/aamin-clock/static/js/main.948e26f7.js.map",
+    "main.4de40cda.css.map": "/aamin-clock/static/css/main.4de40cda.css.map",
+    "main.09a760cb.js.map": "/aamin-clock/static/js/main.09a760cb.js.map",
     "787.6843d2c1.chunk.js.map": "/aamin-clock/static/js/787.6843d2c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e00411be.css",
-    "static/js/main.948e26f7.js"
+    "static/css/main.4de40cda.css",
+    "static/js/main.09a760cb.js"
   ]
 }
