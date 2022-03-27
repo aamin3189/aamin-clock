@@ -1,2 +1,36 @@
-.weather-container {
+.weatherContainer {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff !important;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.weatherContainer h1 {
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+.seconds-hr {
+  position: absolute;
+  top: 0;
+  width: 30%;
+  height: 4px;
+  margin: 0;
+  left: 0;
+  border: none;
+  background: #fff;
+}
+.weather-info span {
+  margin-right: 10px;
+  font-weight: 100;
+}
+.date-day {
+  margin-top: 15px;
+  font-weight: 200;
 }

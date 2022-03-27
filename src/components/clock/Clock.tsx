@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./clock.css";
 const days = [
   "Sunday",
@@ -35,7 +35,6 @@ const scale = (
 };
 
 const Clock = () => {
-  const hourEl = useRef(null);
   const [hourStyle, setHourStyle] = useState({});
   const [minStyle, setMinStyle] = useState({});
   const [secStyle, setSecStyle] = useState({});
@@ -76,7 +75,6 @@ const Clock = () => {
         360
       )}deg)`,
     });
-    const secondsDegrees = (seconds / 60) * 360 + 90;
 
     setSecStyle({
       transform: `translate(-50%, -100%) rotate(${scale(
