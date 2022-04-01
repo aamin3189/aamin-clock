@@ -1,3 +1,9 @@
+interface iRGB {
+  r: number | undefined;
+  g: number | undefined;
+  b: number | undefined;
+}
+
 function invertColor(hex: string | undefined) {
   if (hex === undefined) {
     return;
@@ -24,6 +30,25 @@ function padZero(str: string, len: number = 2) {
   len = len || 2;
   var zeros = new Array(len).join("0");
   return (zeros + str).slice(-len);
+}
+
+// function that converts hex format to a rgb color
+function hexToRgb(hex: string) {
+  var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return result
+    ? {
+        r: parseInt(result[1], 16),
+        g: parseInt(result[2], 16),
+        b: parseInt(result[3], 16),
+      }
+    : null;
+}
+
+export function selectColor(hex: string) {
+  const rgb = hexToRgb(hex);
+  const brightness =
+    ((rgb?.r ?? 0) * 299 + (rgb?.g ?? 0) * 587 + (rgb?.b ?? 0) * 114) / 1000;
+  return brightness > 125 ? "black" : "white";
 }
 
 export default invertColor;

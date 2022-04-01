@@ -4,8 +4,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff !important;
   width: 100vw;
+  flex-direction: column;
+}
+
+.weatherContainer section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -14,6 +20,7 @@
   margin: 0;
   padding: 0;
   font-weight: 300;
+  z-index: 2;
 }
 
 .seconds-hr {
@@ -24,13 +31,19 @@
   margin: 0;
   left: 0;
   border: none;
-  background: #fff;
 }
-.weather-info span {
+.weather-info {
+  z-index: 3;
+}
+.weather-info label {
   margin-right: 10px;
   font-weight: 100;
+  z-index: 2;
+  color: #fff;
+  text-transform: capitalize;
 }
 .date-day {
   margin-top: 15px;
   font-weight: 200;
+  z-index: 2;
 }

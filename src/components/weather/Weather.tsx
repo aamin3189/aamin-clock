@@ -11,7 +11,7 @@ import {
 import getPexelsImage from "../../services/pexels";
 import moment from "moment";
 import "./weather.css";
-import invertColor from "../../services/color";
+import invertColor, { selectColor } from "../../services/color";
 
 const MAX = 10;
 
@@ -22,14 +22,17 @@ const Weather = () => {
   const [date, setDate] = useState("");
   const [width, setWidth] = useState(0);
   useEffect(() => {
-    getData();
     getTime();
+    getData();
+    setInterval(() => {
+      getData();
+    }, 1000 * 60 * 60);
   }, []);
   const getData = async () => {
     const data: IWeatherResponse = await getWeather();
     setWeather(data);
     let imgResponse: IPexelsResponse = await getPexelsImage(
-      data.weather[0].description,
+      data.weather[0].main,
       10
     );
     const index = Math.floor(Math.random() * MAX);
@@ -50,22 +53,43 @@ const Weather = () => {
   return (
     <div
       style={{
+        // color: selectColor(pexelsImage?.avg_color ?? "#000000"),
         backgroundImage: `url(${pexelsImage?.src.landscape})`,
+        // backgroundImage: `url(https://images.pexels.com/photos/11491207/pexels-photo-11491207.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200)`,
       }}
       className="weatherContainer"
     >
-      <hr className="seconds-hr" style={{ width: `${width}%` }} />
-      {/* style={{ color: pexelsImage?.avg_color, fontSize: 100 }} */}
-      <h1>{time}</h1>
-      <div className="weather-info">
-        <span>
-          {weather?.main.temp.toFixed(0)}
-          <sup>&#176;</sup>
-        </span>
-        <span>{weather?.weather[0].main}</span>
-        <span>{weather?.name}</span>
-      </div>
-      <div className="date-day">{date}</div>
+      <section>
+        <div
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            background: "#11101049",
+            height: "100%",
+            zIndex: 1,
+          }}
+        ></div>
+        <hr
+          className="seconds-hr"
+          style={{
+            width: `${width}%`,
+            backgroundColor: invertColor(pexelsImage?.avg_color),
+          }}
+        />
+        {/* style={{ color: pexelsImage?.avg_color, fontSize: 100 }} */}
+        <h1>{time}</h1>
+        <div className="weather-info">
+          <label>
+            {weather?.main.temp.toFixed(0)}
+            <sup>&#176;</sup>
+          </label>
+          <label>{weather?.weather[0].description}</label>
+          <label>{weather?.name}</label>
+        </div>
+        <div className="date-day">{date}</div>
+      </section>
     </div>
   );
 };
