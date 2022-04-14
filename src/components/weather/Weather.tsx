@@ -66,7 +66,7 @@ const Weather = () => {
             top: 0,
             left: 0,
             width: "100%",
-            background: "#11101049",
+            background: "rgba(21, 19, 19, 0.66)",
             height: "100%",
             zIndex: 1,
           }}
@@ -86,7 +86,12 @@ const Weather = () => {
             <sup>&#176;</sup>
           </label>
           <label>{weather?.weather[0].description}</label>
-          <label>{weather?.name}</label>
+          {weather?.sys && (
+            <label>
+              Sunrise: {moment.unix(weather?.sys.sunrise).format("hh:mm A")}{" "}
+              Sunset: {moment.unix(weather?.sys.sunset).format("hh:mm A")}
+            </label>
+          )}
         </div>
         <div className="date-day">{date}</div>
       </section>
