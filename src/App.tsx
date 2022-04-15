@@ -3,15 +3,18 @@ import "./App.css";
 import Clock from "./components/clock/Clock";
 import Weather from "./components/weather/Weather";
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
+import Ramadhan from "./components/ramadhan/Ramadhan";
 
-const COMP_COUNT = 2;
+const COMP_COUNT = 3;
 
 function render(page: number) {
   switch (page) {
     case 0:
-      return <Clock />;
+      return <Ramadhan />;
     case 1:
       return <Weather />;
+    case 3:
+      return <Clock />;
     default:
       return <Clock />;
   }

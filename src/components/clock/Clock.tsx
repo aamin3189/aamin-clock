@@ -87,7 +87,9 @@ const Clock = () => {
     });
 
     setTimeStr(
-      `${hoursForClock}:${minutes < 10 ? `0${minutes}` : minutes} ${ampm}`
+      `${hoursForClock === 0 ? 12 : hoursForClock}:${
+        minutes < 10 ? `0${minutes}` : minutes
+      } ${ampm}`
     );
     setDateStr(`${days[day]}, ${months[month]} ${date}`);
   }

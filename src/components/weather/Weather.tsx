@@ -13,7 +13,7 @@ import moment from "moment";
 import "./weather.css";
 import invertColor, { selectColor } from "../../services/color";
 
-const MAX = 10;
+const MAX = 50;
 
 const Weather = () => {
   const [weather, setWeather] = useState<IWeatherResponse>();
@@ -33,7 +33,7 @@ const Weather = () => {
     setWeather(data);
     let imgResponse: IPexelsResponse = await getPexelsImage(
       data.weather[0].main,
-      10
+      MAX
     );
     const index = Math.floor(Math.random() * MAX);
     setImages(imgResponse.photos[index]);
