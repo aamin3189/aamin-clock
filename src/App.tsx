@@ -4,17 +4,20 @@ import Clock from "./components/clock/Clock";
 import Weather from "./components/weather/Weather";
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
 import Ramadhan from "./components/ramadhan/Ramadhan";
+import Timonk from "./components/timonk/Timonk";
 
-const COMP_COUNT = 3;
+const COMP_COUNT = 4;
 
 function render(page: number) {
   switch (page) {
     case 0:
-      return <Ramadhan />;
+      return <Timonk />;
     case 1:
       return <Weather />;
-    case 3:
+    case 2:
       return <Clock />;
+    case 3:
+      return <Ramadhan />;
     default:
       return <Clock />;
   }
