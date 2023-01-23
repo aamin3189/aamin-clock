@@ -27,6 +27,8 @@ function render(page: number) {
   }
 }
 
+// Deploy new script
+
 function App() {
   const [page, setPage] = useState(0);
 
