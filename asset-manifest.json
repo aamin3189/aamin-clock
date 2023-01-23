@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/aamin-clock/static/css/main.19308351.css",
-    "main.js": "/aamin-clock/static/js/main.69530f38.js",
+    "main.css": "/aamin-clock/static/css/main.db9b0385.css",
+    "main.js": "/aamin-clock/static/js/main.5cfdb986.js",
     "static/js/787.6843d2c1.chunk.js": "/aamin-clock/static/js/787.6843d2c1.chunk.js",
     "static/media/background.jpg": "/aamin-clock/static/media/background.2cbaea4c3f5fce912d6c.jpg",
     "index.html": "/aamin-clock/index.html",
-    "main.19308351.css.map": "/aamin-clock/static/css/main.19308351.css.map",
-    "main.69530f38.js.map": "/aamin-clock/static/js/main.69530f38.js.map",
+    "main.db9b0385.css.map": "/aamin-clock/static/css/main.db9b0385.css.map",
+    "main.5cfdb986.js.map": "/aamin-clock/static/js/main.5cfdb986.js.map",
     "787.6843d2c1.chunk.js.map": "/aamin-clock/static/js/787.6843d2c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19308351.css",
-    "static/js/main.69530f38.js"
+    "static/css/main.db9b0385.css",
+    "static/js/main.5cfdb986.js"
   ]
 }
