@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/aamin-clock/static/css/main.a3e6575b.css",
-    "main.js": "/aamin-clock/static/js/main.48a9e9d7.js",
+    "main.css": "/aamin-clock/static/css/main.87708dfa.css",
+    "main.js": "/aamin-clock/static/js/main.9e8e1497.js",
     "static/js/787.6843d2c1.chunk.js": "/aamin-clock/static/js/787.6843d2c1.chunk.js",
     "static/media/background.jpg": "/aamin-clock/static/media/background.2cbaea4c3f5fce912d6c.jpg",
     "index.html": "/aamin-clock/index.html",
-    "main.a3e6575b.css.map": "/aamin-clock/static/css/main.a3e6575b.css.map",
-    "main.48a9e9d7.js.map": "/aamin-clock/static/js/main.48a9e9d7.js.map",
+    "main.87708dfa.css.map": "/aamin-clock/static/css/main.87708dfa.css.map",
+    "main.9e8e1497.js.map": "/aamin-clock/static/js/main.9e8e1497.js.map",
     "787.6843d2c1.chunk.js.map": "/aamin-clock/static/js/787.6843d2c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3e6575b.css",
-    "static/js/main.48a9e9d7.js"
+    "static/css/main.87708dfa.css",
+    "static/js/main.9e8e1497.js"
   ]
 }
