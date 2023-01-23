@@ -5,8 +5,10 @@ import Weather from "./components/weather/Weather";
 import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
 import Ramadhan from "./components/ramadhan/Ramadhan";
 import Timonk from "./components/timonk/Timonk";
+import DigiGred from "./components/digigred/DigiGred";
+// import Background from "./components/background/Background";
 
-const COMP_COUNT = 4;
+const COMP_COUNT = 5;
 
 function render(page: number) {
   switch (page) {
@@ -18,6 +20,8 @@ function render(page: number) {
       return <Clock />;
     case 3:
       return <Ramadhan />;
+    case 4:
+      return <DigiGred />;
     default:
       return <Clock />;
   }
