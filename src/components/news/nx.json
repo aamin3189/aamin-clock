@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 35,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": "https://www.facebook.com/bbcnews",
+      "title": "Tanks for Ukraine: Polish PM urges German bravery on Leopard 2 decision - BBC",
+      "description": "The request comes as Germany says allies can train Ukrainian troops on Leopard tanks.",
+      "url": "https://www.bbc.com/news/world-europe-64385210",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/A35A/production/_128381814_gettyimages-1437048297.jpg",
+      "publishedAt": "2023-01-24T16:22:03Z",
+      "content": "Poland has officially asked Germany for permission to export a host of Leopard 2 battle tanks to Ukraine, in a move which raises pressure on Berlin.\r\nThe German government told the BBC it had receive… [+2546 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "Teddy Grant, Bill Hutchinson",
+      "title": "2023 'Doomsday Clock' moved 10 seconds closer to catastrophe - ABC News",
+      "description": "The announcement is the first since Russia's invasion of Ukraine.",
+      "url": "https://abcnews.go.com/US/2023-doomsday-clock-announcement-expect/story?id=96495463",
+      "urlToImage": "https://s.abcnews.com/images/US/doomsday-clock-unveil-ht-ps-22014_1674573534713_hpMain_16x9_992.jpg",
+      "publishedAt": "2023-01-24T16:18:45Z",
+      "content": "Scientists revealed on Tuesday that the \"Doomsday Clock\" has been moved up to 90 seconds before midnight -- the closest humanity has ever been to armageddon.\r\nBulletin of the Atomic Scientists moved … [+3948 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Holly Yan, Aya Elamroussi",
+      "title": "7 killed in Half Moon Bay as California is shocked by 3 mass shootings in 44 hours - CNN",
+      "description": "As Californians grapple with three deadly mass shootings over three days, investigators near San Francisco are trying to figure out why a 66-year-old man may have killed seven people in a massacre that has devastated the Asian American community once again.",
+      "url": "https://www.cnn.com/2023/01/24/us/half-moon-bay-california-shootings-tuesday/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230124112717-half-moon-bay-shooting-0124.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2023-01-24T16:16:00Z",
+      "content": "As Californians grapple with three deadly mass shootings over three days, investigators near San Francisco are trying to figure out why a 66-year-old man may have killed seven people in a massacre th… [+4396 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Nicole Goodkind",
+      "title": "Trading briefly halted for many New York Stock Exchange-listed stocks - CNN",
+      "description": "Trading for dozens of companies on the New York Stock Exchange was briefly halted Tuesday just after the market opened.",
+      "url": "https://www.cnn.com/2023/01/24/investing/nyse-halt-stocks/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230124094619-nyse-011923.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2023-01-24T16:10:00Z",
+      "content": "Trading for dozens of companies on the New York Stock Exchange was briefly halted Tuesday just after the market opened. \r\nMajor names impacted included Verizon, McDonalds, Morgan Stanley, AT&amp;T an… [+1266 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Guardian"
+      },
+      "author": "Isobel Koshiw",
+      "title": "Zelenskiy ramps up anti-corruption drive as 15 Ukrainian officials exit - The Guardian",
+      "description": "Key officials have been dismissed or resigned since Saturday, with six facing corruption allegations",
+      "url": "https://www.theguardian.com/world/2023/jan/24/zelenskiy-anti-corruption-drive-15-ukrainian-officials-exit",
+      "urlToImage": "https://i.guim.co.uk/img/media/df51c18d662004fc5a8090caebb67e9f9464dd5e/79_0_2247_1350/master/2247.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f566e086f5d918e44ecf52e559caf420",
+      "publishedAt": "2023-01-24T15:22:00Z",
+      "content": "A number of Ukrainian officials have been dismissed or resigned over the last four days amid corruption allegations as Ukraines president, Volodymyr Zelenskiy, attempts to take a zero-tolerance appro… [+5859 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Lisa Respers France",
+      "title": "'Everything Everywhere All at Once' leads Oscar nominations with 11 - CNN",
+      "description": "The strange and sentimental film \"Everything Everywhere All at Once\" led among the films nominated for the 95th Academy Awards on Tuesday, scoring 11 nominations. \"All Quiet on the Western Front\" and \"The Banshees of Inisherin\" followed with nine nominations …",
+      "url": "https://www.cnn.com/2023/01/24/entertainment/oscar-nominations-list-2023/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/210425223946-oscars.jpg?q=x_3,y_267,h_1684,w_2993,c_crop/w_800",
+      "publishedAt": "2023-01-24T15:22:00Z",
+      "content": "The strange and sentimental film Everything Everywhere All at Once led among the films nominated for the 95th Academy Awards on Tuesday, scoring 11 nominations. All Quiet on the Western Front and The… [+4284 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "ESPN"
+      },
+      "author": "Mike Reiss",
+      "title": "Sources - Bill O'Brien returns to New England Patriots as OC - ESPN",
+      "description": "Bill O'Brien will return to the Patriots after agreeing to a deal Tuesday to become New England's next offensive coordinator, sources told ESPN's Adam Schefter and Chris Low.",
+      "url": "https://www.espn.com/nfl/story/_/id/35516310/sources-bill-obrien-returns-new-england-patriots-oc",
+      "urlToImage": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2021%2F1205%2Fr946931_1296x729_16%2D9.jpg",
+      "publishedAt": "2023-01-24T14:34:08Z",
+      "content": "FOXBOROUGH, Mass. -- Bill O'Brien will return to the New England Patriots after agreeing to a deal Tuesday to become their next offensive coordinator, sources told ESPN's Adam Schefter and Chris Low.… [+2670 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Post"
+      },
+      "author": "Ariel Zilber",
+      "title": "Google workers demand 'psychological safety' from bosses after mass layoffs - New York Post ",
+      "description": "One Google employee based in the UK told management that “psychological safety is paramount.”",
+      "url": "https://nypost.com/2023/01/24/google-workers-demand-psychological-safety-after-layoffs/",
+      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2023/01/google-comp1-1.jpg?quality=75&strip=all&w=1024",
+      "publishedAt": "2023-01-24T14:28:00Z",
+      "content": "Google employees who survived the company’s recent purge of 12,000 of their now-former colleagues grilled executives during a tense all-hands meeting on Monday — anxiously demanding assurances that t… [+2866 chars]"
+    },
+    {
+      "source": {
+        "id": "nfl-news",
+        "name": "NFL News"
+      },
+      "author": "Dan Hanzus",
+      "title": "NFL Power Rankings, Championship Sunday: Bengals, Eagles ride high; Bills, Cowboys bow out - NFL.com",
+      "description": "In his Championship Sunday Power Rankings, Dan Hanzus reveals a new pecking order for the four teams still alive in the NFL playoffs, while also slotting the quartet eliminated during the Divisional Round.",
+      "url": "https://www.nfl.com/news/nfl-power-rankings-championship-sunday-2022-season",
+      "urlToImage": "https://static.www.nfl.com/image/private/t_editorial_landscape_12_desktop/league/ynmevof3b98lpaz0rdct",
+      "publishedAt": "2023-01-24T13:26:00Z",
+      "content": "And then there were four.\r\nSure, we were hoping for perhaps a little more drama from the Divisional Round of the playoffs, but ultimately, we all get the desired result: The four best teams are left … [+763 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "KGO-TV"
+      },
+      "author": null,
+      "title": "Half Moon Bay shooting: Source says 7 dead, 1 hurt at Mountain Mushroom Farm, Concord Farms; suspect in custody - KGO-TV",
+      "description": "President Biden says Half Moon Bay authorities and the community have the \"full support of the federal government\" after the \"heinous attack\" where seven people were killed at two farms.",
+      "url": "https://abc7news.com/half-moon-bay-shooting-multiple-shot-san-mateo-county-sheriff-highway-92/12730587/",
+      "urlToImage": "https://cdn.abcotvs.com/dip/images/12729564_012323-kgo-sky-7-police-cars-hmb-shooting-generic-img.jpg?w=1600",
+      "publishedAt": "2023-01-24T13:19:58Z",
+      "content": "HALF MOON BAY, Calif. (KGO) -- Seven people are dead and one is critically injured following shootings at two farms in Half Moon Bay this afternoon, a source confirmed to ABC7 News.\r\nThe shootings we… [+9143 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Natasha Turak",
+      "title": "Finland says a 'time-out' is needed in talks with Turkey over Nordic NATO membership - CNBC",
+      "description": "Accepting a new NATO member state requires unanimous consent of all 30 current members; Turkey is the one member most vocally opposing the new accession.",
+      "url": "https://www.cnbc.com/2023/01/24/finland-time-out-needed-in-talks-with-turkey-over-nato-membership.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107182887-1674562879463-gettyimages-1245222741-AFP_32WF3EJ.jpeg?v=1674565382&w=1920&h=1080",
+      "publishedAt": "2023-01-24T13:03:02Z",
+      "content": "Finland's Foreign Minister Pekka Haavisto arrives for the meeting of the NATO Ministers of Foreign Affairs in Bucharest, Romania, on November 30, 2022.\r\nFinland is calling for a \"time-out\" in talks w… [+3567 chars]"
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "https://www.engadget.com/about/editors/devindra-hardawar",
+      "title": "LG's latest CineBeam ultra short-throw projector is a dream — if you can afford it - Engadget",
+      "description": "LG's latest CineBeam ultra short-throw projector is a dream, but it sure is pricey..",
+      "url": "https://www.engadget.com/lg-cinebeam-hu915qe-review-ust-projector-130042561.html",
+      "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2023-01/6f12f500-98fb-11ed-afde-65c233381a8c",
+      "publishedAt": "2023-01-24T13:02:04Z",
+      "content": "While my setup wasn't ideal, the CineBeam HU915QE still delivered most of what I wanted: A large and luscious dose of cinema in my basement screening room. Almost immediately, I noticed that it produ… [+4893 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Camila DeChalus",
+      "title": "In George Santos's district, voters feel a mix of regret and resignation - The Washington Post",
+      "description": "George Santos’ constituents say they once saw him as a fresh face for the Republican party. But Santos’ tenure was in disarray before it even started. Caught in the middle are his voters.",
+      "url": "https://www.washingtonpost.com/politics/2023/01/24/george-santos-district-constituents/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RPHRAPVTXI2KN5IOERZ4KZVVYY.JPG&w=1440",
+      "publishedAt": "2023-01-24T13:00:00Z",
+      "content": "Comment on this story\r\nALBERTSON, N.Y. Sitting in the basement of an American Legion building, an American flag tucked in the corner and the sounds of a church rock band playing above, a group gather… [+7290 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Cosmopolitan.com"
+      },
+      "author": "Mehera  Bonner",
+      "title": "Kylie Jenner's Reaction to Irina Shayk Wearing Her Lion Head Dress Is Going Viral - Yahoo Life",
+      "description": "*plays Curb Your Enthusiasm theme*",
+      "url": "https://www.cosmopolitan.com/entertainment/celebs/a42632499/kylie-jenner-irina-shayk-lion-head-reaction-tweets/",
+      "urlToImage": "https://hips.hearstapps.com/hmg-prod/images/screen-shot-2023-01-24-at-6-51-44-am-1674561116.png?crop=1.00xw:0.902xh;0,0&resize=1200:*",
+      "publishedAt": "2023-01-24T12:50:00Z",
+      "content": "The internet is still recovering from \r\nKylie Jenner showing up at the Schiaparelli Haute Couture Spring/Summer 2023 show with a giant lion's head attached to her dress. But the best part of this ins… [+2362 chars]"
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "Thomas Catenacci, Cameron Cawthorne",
+      "title": "Biden's incoming chief of staff met with Hunter Biden at least three times in 2016 - Fox News",
+      "description": "Jeff Zients, President Biden's incoming chief of staff, met with Hunter Biden on multiple occasions in the final months of President Biden's tenure as vice president.",
+      "url": "https://www.foxnews.com/politics/bidens-incoming-chief-staff-met-hunter-biden-three-times-2016",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2022/03/Jeff-Zients.jpg",
+      "publishedAt": "2023-01-24T12:04:00Z",
+      "content": "FIRST ON FOX: Jeff Zients, the incoming White House chief of staff, met multiple times in 2016 with President Biden's son Hunter Biden who is facing criminal and congressional probes into his past bu… [+5180 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": null,
+      "title": "Debt-Limit Fight Risks Early End to Fed Quantitative Tightening - Bloomberg",
+      "description": null,
+      "url": "https://www.bloomberg.com/tosv2.html?vid=&uuid=584460bc-9c08-11ed-b21c-557758726563&url=L25ld3MvYXJ0aWNsZXMvMjAyMy0wMS0yNC9kZWJ0LWxpbWl0LWZpZ2h0LXJpc2tzLWVhcmx5LWVuZC10by1mZWQtcXVhbnRpdGF0aXZlLXRpZ2h0ZW5pbmc=",
+      "urlToImage": null,
+      "publishedAt": "2023-01-24T12:00:01Z",
+      "content": "To continue, please click the box below to let us know you're not a robot."
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "Lindsay Kornick",
+      "title": "Karine Jean-Pierre warns House Republicans want to raise gas prices: 'She did not just say this' - Fox News",
+      "description": "The White House press secretary claimed that the House Republicans’ latest bill will increase gas prices and hurt Americans while addressing reporters on Monday.",
+      "url": "https://www.foxnews.com/media/karine-jean-pierre-warns-house-republicans-want-raise-gas-prices-say",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/01/KJP-JAN-23-PRESS.jpg",
+      "publishedAt": "2023-01-24T12:00:00Z",
+      "content": "White House press secretary Karine Jean-Pierre faced major pushback on social media after claiming that House Republicans want to raise gas prices during Mondays conference.\r\nJean-Pierre began the pr… [+4051 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Chelsea Janes",
+      "title": "Carlos Beltrán's Hall of Fame candidacy signals the start of the Astros era - The Washington Post",
+      "description": "Beltrán is the first of the 2017 Houston Astros to make his way to the Hall of Fame ballot. And he will not be the last.",
+      "url": "https://www.washingtonpost.com/sports/2023/01/24/carlos-beltrn-astros-cheating-hall-fame/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RFOE4UPRX5F5NEEVZFIAPUKY44.jpg&w=1440",
+      "publishedAt": "2023-01-24T12:00:00Z",
+      "content": "Comment on this story\r\nThis years Baseball Hall of Fame ballot, like the decade or so of ballots before it, presents voters with an uncomfortable opportunity for moral evaluation, this time in the fo… [+6460 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.com"
+      },
+      "author": "George Dvorsky",
+      "title": "Watch Live: NASA and DARPA Discuss New Advanced Propulsion Tech - Gizmodo",
+      "description": "The coordinated effort is seeking to create alternative space propulsion technologies for both the civilian and defense sectors.",
+      "url": "https://gizmodo.com/watch-live-nasa-darpa-advanced-propulsion-tech-panel-1850020209",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/fdb9e80b073ff1c4ece4c8da520e1be6.jpg",
+      "publishedAt": "2023-01-24T12:00:00Z",
+      "content": "Two of the most forward-thinking agencies in the United States are joining forces to foster the development of advanced space propulsion. A fireside chat on the new collaboration is scheduled for Tue… [+2329 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Reuters",
+      "title": "GE's 2023 profit forecast weighed down by renewable business - CNBC",
+      "description": "GE forecast a lower-than-expected 2023 adjusted profit on Tuesday, as it struggles with persistent problems at its money-losing renewable energy business.",
+      "url": "https://www.cnbc.com/2023/01/24/ge-forecasts-weak-2023-profit-on-troubles-at-renewable-business.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/106080823-15658719667522019-07-31t115709z_1055409485_rc1ccce6e010_rtrmadp_3_ge-results.jpg?v=1674560856&w=1920&h=1080",
+      "publishedAt": "2023-01-24T11:47:36Z",
+      "content": "General Electric forecast a lower-than-expected 2023 adjusted profit on Tuesday, as the industrial major struggles with persistent problems at its money-losing renewable energy business.\r\nShares in G… [+1353 chars]"
+    }
+  ]
+}

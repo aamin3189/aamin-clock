@@ -19,7 +19,7 @@ html.dark {
 }
 
 html.dark {
-  background-color: #111;
+  /* background-color: #111; */
   color: var(--primary-color);
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 .controls {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 30px;
   width: 75px;

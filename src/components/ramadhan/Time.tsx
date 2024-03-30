@@ -14,10 +14,11 @@ const Time = ({ label, time }: iProps) => {
         fontFamily: "Poppins",
         marginRight: 40,
       }}
+      className={label.toLowerCase()}
     >
       <label
         style={{
-          fontSize: "12px",
+          fontSize: "16px",
           color: "#AD810A",
         }}
       >
@@ -25,7 +26,7 @@ const Time = ({ label, time }: iProps) => {
       </label>
       <span
         style={{
-          fontSize: "16px",
+          fontSize: "20px",
           fontWeight: 300,
         }}
       >

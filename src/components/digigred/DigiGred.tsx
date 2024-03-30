@@ -12,7 +12,7 @@ const DigiGred = () => {
   }, []);
 
   return (
-    <div>
+    <div className="digi-body">
       <div className="clock-container">
         <div className="clock-col">
           <p className="clock-day clock-timer">{moment(time).format("dd")}</p>
@@ -23,7 +23,7 @@ const DigiGred = () => {
           <p className="clock-label">Hour</p>
         </div>
         <div className="clock-col">
-          <p className="clock-minutes clock-timer">{moment(time).format("MM")}</p>
+          <p className="clock-minutes clock-timer">{moment(time).format("mm")}</p>
           <p className="clock-label">Minutes</p>
         </div>
         <div className="clock-col">

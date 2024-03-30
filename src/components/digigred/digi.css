@@ -1,26 +1,27 @@
-.clock-day:before {
+.digi-body .clock-day:before {
   content: var(--timer-day);
 }
-.clock-hours:before {
+.digi-body .clock-hours:before {
   content: var(--timer-hours);
 }
-.clock-minutes:before {
+.digi-body .clock-minutes:before {
   content: var(--timer-minutes);
 }
-.clock-seconds:before {
+.digi-body .clock-seconds:before {
   content: var(--timer-seconds);
 }
 
-body {
+.digi-body {
   background: linear-gradient(45deg, #1870ed 0, #f18f88 100%);
   font-family: "Poppins", "sans-serif";
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100vw;
 }
 
-.clock-container {
+.digi-body .clock-container {
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: #080808;
@@ -29,15 +30,15 @@ body {
   box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.15), 0 15px 90px 30px rgba(0, 0, 0, 0.25);
   display: flex;
 }
-.clock-col {
+.digi-body .clock-col {
   text-align: center;
   margin-right: 20px;
   margin-left: 20px;
   min-width: 90px;
   position: relative;
 }
-.clock-col:not(:last-child):before,
-.clock-col:not(:last-child):after {
+.digi-body .clock-col:not(:last-child):before,
+.digi-body .clock-col:not(:last-child):after {
   content: "";
   background-color: rgba(255, 255, 255, 0.3);
   height: 5px;
@@ -47,19 +48,19 @@ body {
   position: absolute;
   right: -42px;
 }
-.clock-col:not(:last-child):before {
+.digi-body .clock-col:not(:last-child):before {
   top: 35%;
 }
-.clock-col:not(:last-child):after {
+.digi-body .clock-col:not(:last-child):after {
   top: 50%;
 }
-.clock-timer {
+.digi-body .clock-timer {
   color: #fff;
   font-size: 3.2rem;
   text-transform: uppercase;
   margin: 0;
 }
-.clock-label {
+.digi-body .clock-label {
   color: rgba(255, 255, 255, 0.35);
   text-transform: uppercase;
   font-size: 0.7rem;

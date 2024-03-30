@@ -99,3 +99,10 @@
   transition: all 0.5s ease-in;
   font-size: 12px;
 }
+.clock-new-bg {
+  background: #1d1919;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}

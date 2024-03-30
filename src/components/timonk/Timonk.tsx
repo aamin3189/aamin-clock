@@ -12,7 +12,7 @@ const Timonk = () => {
     const minutes = date.getMinutes();
     const seconds = date.getSeconds();
 
-    const hour = hours * 30;
+    const hour = hours * 30 + minutes / 2;
     const minute = minutes * 6;
     const second = seconds * 6;
 

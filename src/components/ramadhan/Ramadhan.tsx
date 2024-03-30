@@ -57,9 +57,7 @@ const Ramadhan = () => {
   function getIslamicDate() {
     let myFormat = "en-u-ca-islamic-umalqura-nu-latn"; // use islamic-umalqura calendar (most modern)
     let myDate = new Date(Date.now());
-    let date = new Intl.DateTimeFormat(myFormat, { dateStyle: "long" }).format(
-      myDate
-    );
+    let date = new Intl.DateTimeFormat(myFormat, { dateStyle: "long" }).format(myDate);
 
     const returnable = date.split(" ");
     return {
@@ -106,7 +104,6 @@ const Ramadhan = () => {
           <span>{islamicDate.date}</span>
           <span>{islamicDate.month}</span>
         </div>
-
         {prayerTimes && (
           <section>
             <div className="prayer-times">
