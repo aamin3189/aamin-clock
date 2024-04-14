@@ -1,0 +1,66 @@
+.weatherContainer {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.weatherContainer section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.weatherContainer h1 {
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  z-index: 2;
+}
+
+.seconds-hr {
+  position: absolute;
+  top: 0;
+  width: 30%;
+  height: 4px;
+  margin: 0;
+  left: 0;
+  border: none;
+  background: rgb(118, 1, 255);
+  background: linear-gradient(90deg, rgba(118, 1, 255, 1) 0%, rgba(247, 255, 3, 1) 47%, rgba(255, 0, 24, 1) 100%);
+}
+.weather-info {
+  z-index: 3;
+}
+.weather-info label {
+  margin-right: 10px;
+  font-weight: 100;
+  z-index: 2;
+  color: #fff;
+  text-transform: capitalize;
+}
+.date-day {
+  margin-top: 0;
+  font-weight: 200;
+  z-index: 2;
+}
+.clock-area {
+  background: rgb(0 0 0 / 57%);
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  width: 130%;
+}
+
+.wwpoo,
+.overcast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+}

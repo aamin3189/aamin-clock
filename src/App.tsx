@@ -9,6 +9,7 @@ import DigiGred from "./components/digigred/DigiGred";
 import News from "./components/news/News";
 import TimonkV2 from "./components/timonk.v2/Timonk.v2";
 import Motion from "./components/motion/Motion";
+import Landscape from "./components/landscape/Landscape";
 // import Background from "./components/background/Background";
 
 const COMP_COUNT = 6;
@@ -18,15 +19,17 @@ function render(page: number) {
     case 0:
       return <Ramadhan />;
     case 1:
-      return <Clock />;
+      return <Landscape />;
     case 2:
-      return <Weather />;
+      return <Clock />;
     case 3:
       return <Timonk />;
     case 4:
       return <News />;
     case 5:
       return <Motion />;
+    case 6:
+      return <Weather />;
     default:
       return <Clock />;
   }
